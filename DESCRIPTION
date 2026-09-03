@@ -1,0 +1,22 @@
+Package: HMTL
+Type: Package
+Title: Heterogeneous Multi-Task Feature Learning
+Version: 0.1.1
+Authors@R: c(person("Yuan", "Zhong",role=c("aut","cre"),email = "aqua.zhong@gmail.com"), person("Wei","Xu",role = "aut"), person("Xin","Gao",role = "aut"))
+Description: Fits heterogeneous multi-task learning models with regression,
+    Huber and adaptive Huber regression, logistic regression, and exponential
+    accelerated failure time tasks. The model uses a row-wise group-lasso
+    penalty for common feature selection and can optionally use a within-task
+    group similarity penalty. Information-criterion-based tuning and fitting
+    diagnostics are also provided.
+License: GPL-3
+Encoding: UTF-8
+Imports:
+    Matrix,
+    graphics,
+    stats
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.0

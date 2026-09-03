@@ -1,0 +1,6 @@
+# Generated package namespace for HMTL
+export(MTL)
+export(Selection_MTL)
+export(plot_HMTL)
+S3method(plot,mtl_selection)
+import(stats)
