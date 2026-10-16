@@ -11,23 +11,7 @@ Supported task types:
 - `"AFT exponential"`
 
 The optimization combines task-specific losses with a row-wise group-lasso penalty for common feature selection and an optional within-task-group squared similarity penalty.
-
-## Install from this source folder
-
-```r
-install.packages(c("Matrix"))
-install.packages("path/to/HMTL", repos = NULL, type = "source")
-```
-
-For development with `devtools`:
-
-```r
-install.packages(c("devtools", "roxygen2", "testthat"))
-devtools::document("path/to/HMTL")
-devtools::check("path/to/HMTL")
-devtools::install("path/to/HMTL")
-```
-
+ 
 ## Basic example
 
 ```r
